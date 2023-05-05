@@ -1,0 +1,16 @@
+domain: nacos.nancal
+layout:
+- go.kubebuilder.io/v3
+projectName: nacosoperator
+repo: github.com/kevinstudy2021/nacosOperator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: nacos.nancal
+  group: middleware
+  kind: Nacos
+  path: github.com/kevinstudy2021/nacosOperator/api/v1alpha1
+  version: v1alpha1
+version: "3"
